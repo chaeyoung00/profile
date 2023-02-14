@@ -1,0 +1,179 @@
+@import url("default.css");
+body{
+    background: #799C7F;
+    font-size: 14px;
+}
+.one_page{
+    width: 100vw;
+    height: 100vh;
+}
+.one_page>.box{
+    width: 960px;
+    height: 486px;
+    background: url("../images/figma.png") no-repeat;
+}
+.one_page>.box>h1{
+    text-indent: -9999px;
+    background: url("../images/h1.png") no-repeat;
+    width: 1039px;
+    height: 254px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+}
+.profile{
+    width: 100vw;
+    height: 100vh;
+}
+.profile>.innerbox{
+    width: 1200px;
+    margin: 0 auto;
+}
+.profile>.innerbox>h2{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.profile>.innerbox>.profile_box{
+    width: 1200px;
+    height: 700px;
+    border: 6px solid #fff;
+    border-radius: 50px;
+}
+.profile>.innerbox>.profile_box>.img{
+    width: 380px;
+    height: 420px;
+    border: 1px solid #fff;
+    float: left;
+    margin: 100px 0 0 50px;
+
+}
+.profile>.innerbox>.profile_box>.text{
+   float: left;
+   margin: 110px 0 0 80px;
+}
+.profile>.innerbox>.profile_box>.text>p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 26px;
+}
+.profile>.innerbox>.profile_box>.text>.certificate{
+    margin-top: 4px;
+}
+.profile>.innerbox>.profile_box>.text>.certificate>h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.profile>.innerbox>.profile_box>.text>.certificate>ul>li{
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+.profile>.innerbox>.profile_box>.text>.certificate>.icon{
+    margin-top: 20px;
+}
+.profile>.innerbox>.profile_box>.text>.certificate>.icon>ul>li{
+    float: left;
+    margin-right: 14px;
+
+}
+.profile>.innerbox>.profile_box>.text>.certificate>.icon>ul>li>img{
+    width: 100px;
+    height: 100px;
+}
+.profile>.innerbox>.profile_box>.text>.certificate>.icon>ul>li:last-child{
+    margin-right: 0;
+}
+.profile>.innerbox>.profile_box>.text>.mt{
+    padding-top: 10px;
+}
+.profile>.innerbox>.profile_box>.text>.mt>p{
+    font-size: 22px;
+    color: #fff;
+}
+.profile>.innerbox>.profile_box>.text>.mt>p>span{
+    color: #6CEE81;
+    clear: both;
+}
+.portfolio{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+.portfolio>.innerbox{
+    width: 1200px;
+    margin: 0 auto;
+}
+.portfolio>.innerbox>h2{
+    font-size: 34px;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 18px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.portfolio>.innerbox>.tree{
+    background: url(../images/tree.png) no-repeat;
+    width: 797px;
+    height: 912px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.portfolio>.innerbox>.tree>.a1{
+    position: absolute;
+    left: 28%;
+    top: 12%;
+}
+.portfolio>.innerbox>.tree>.a1>a>.sh{
+    display: none;
+}
+.portfolio>.innerbox>.tree>.a1>a:hover .sh{
+    display: block;
+    position: absolute;
+}
+.portfolio>.innerbox>.tree>.a2{
+    position: absolute;
+    left: 50%;
+    top: 2%;
+}
+.portfolio>.innerbox>.tree>.a2>a>.bx{
+    display: none;
+}
+.portfolio>.innerbox>.tree>.a2>a:hover .bx{
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+.portfolio>.innerbox>.tree>.a3{
+    position: absolute;
+    left: 64%;
+    top: 26%;
+}
+.portfolio>.innerbox>.tree>.a3>a>.sh_m{
+    display: none;
+}
+.portfolio>.innerbox>.tree>.a3>a:hover .sh_m{
+    display: block;
+    position: absolute;
+}
+.portfolio>.innerbox>.tree>.a4{
+    position: absolute;
+    top: 36%;
+    left: 8%;
+}
+.portfolio>.innerbox>.tree>.a4>a>.g{
+    display: none;
+}
+.portfolio>.innerbox>.tree>.a4>a:hover .g{
+    display: block;
+    position: absolute;
+}
